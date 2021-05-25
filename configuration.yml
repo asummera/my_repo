@@ -1,7 +1,6 @@
 ---
 - name: Configuring VTEP 1 for EVPN VXLAN Layer 2
   hosts: vtep2
-  gather_facts: yes
   become_method: enable
   become: yes
   
